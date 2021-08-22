@@ -28,13 +28,10 @@ body{
     text-align: center;
     vertical-align:middle;
 }
-.menu {
-    list-style: none;
-    font-family: sans-serif;
-    position:absolute;
-    top:10px;
-    right: 30px;
-    cursor: pointer;
+.link {
+    
+    float: left;
+    color: white;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 9px;
@@ -42,3 +39,12 @@ body{
 }
 .links:hover 
 {background-color:dodgerblue;}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position:absolute;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+}
