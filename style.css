@@ -6,6 +6,9 @@ body{
     width:175px;
     margin-bottom: 50px;
     border-radius: 50%;
+    
+}
+#name{
     font-family: 'Rampart One', cursive;
 }
 #welcome{
@@ -21,6 +24,7 @@ body{
     background: linear-gradient(cyan 0%,lightblue 100%);
     height:100%;
     color:cornsilk;
+    z-index: 1;
 }
 .para-inner{
     display:table-cell;
@@ -47,4 +51,6 @@ body{
     top:10px;
     right: 30px;
     cursor: pointer;
+    z-index: 99;
+    
 }
